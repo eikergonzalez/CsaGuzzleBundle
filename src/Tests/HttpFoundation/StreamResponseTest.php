@@ -15,7 +15,7 @@ use Csa\Bundle\GuzzleBundle\HttpFoundation\StreamResponse;
 use GuzzleHttp\Message\Response;
 use GuzzleHttp\Stream\Stream;
 
-class StreamResponseTest extends \PHPUnit_Framework_TestCase
+class StreamResponseTest extends \PHPUnit\Framework\TestCase
 {
     public function testNormalOutput()
     {

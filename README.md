@@ -11,11 +11,13 @@ CsaGuzzleBundle
 Description
 -----------
 
-This bundle integrates Guzzle >=4.0 in Symfony. Currently, it supports the following features:
+This bundle integrates Guzzle 5 in Symfony. Currently, it supports the following features:
 
 * Integration with Symfony's debug tools (web debug toolbar, profiler, logger, timeline, ...)
 * Configuring a Guzzle client simply using configuration
 * Service descriptions to describe your services is json format
+
+> Forked from CsaGuzzleBundle, it brings to the 1.3.x version the support of PHP 7.1+.
 
 ![Web debug Toolbar](https://cloud.githubusercontent.com/assets/465798/7407652/dda8bda4-ef14-11e4-9e9e-1db2fa6a346d.png)
 ![Profiler panel integration](https://cloud.githubusercontent.com/assets/465798/7407654/e4432b2c-ef14-11e4-8f84-b11b32dcce86.png)
