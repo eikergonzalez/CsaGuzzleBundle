@@ -3,16 +3,11 @@ language: php
 matrix:
   include:
     - php: 7.1
-      env: deps=low
-    - php: 7.3
-      env: deps=low
-    - php: 7.1
     - php: 7.3
   fast_finish: true
 
 install:
-  - if [ "$deps" = "no" ]; then composer --prefer-stable --no-interaction update; fi;
-  - if [ "$deps" = "low" ]; then composer --prefer-lowest --no-interaction --prefer-stable update; fi;
+  - composer install
 
 env:
   global:
