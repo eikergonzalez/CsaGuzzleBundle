@@ -16,7 +16,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\DependencyInjection\Reference;
 
-class SubscriberPassTest extends \PHPUnit_Framework_TestCase
+class SubscriberPassTest extends \PHPUnit\Framework\TestCase
 {
     public function testSubscriberRegisteredToFactory()
     {

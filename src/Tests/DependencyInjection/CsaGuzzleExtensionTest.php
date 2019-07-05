@@ -18,7 +18,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\Yaml\Parser;
 
-class CsaGuzzleExtensionTest extends \PHPUnit_Framework_TestCase
+class CsaGuzzleExtensionTest extends \PHPUnit\Framework\TestCase
 {
     public function testClientCreated()
     {
